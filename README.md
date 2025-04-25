@@ -1,6 +1,6 @@
 # CollegeTips Photo Booth
 
-![CollegeTips Gallery Preview](preview.jpg)
+![CollegeTips Gallery Preview](./images/preview.png)
 
 An interactive, responsive photo gallery for CollegeTips website featuring team moments, campaigns, and behind-the-scenes content.
 
@@ -23,6 +23,7 @@ An interactive, responsive photo gallery for CollegeTips website featuring team 
 - Adaptive image grids
 - Touch-friendly interactions
 - Optimized for all screen sizes
+![CollegeTips Gallery Photos](./images/photo.png)
 
 ## Technologies Used
 
@@ -32,3 +33,29 @@ An interactive, responsive photo gallery for CollegeTips website featuring team 
 - **Font Awesome** - Icon set
 
 ## File Structure
+
+collegetips-gallery/
+
+├── index.html # Main HTML file
+
+├── styles.css # All styling
+
+├── script.js # Gallery functionality
+
+├── images/ # Image assets
+
+│ ├── header/ # Header circle images
+
+│ ├── backgrounds/ # Background images
+
+│ └── gallery/ # Gallery content images
+
+└── README.md # This file
+
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/collegetips-gallery.git
+
