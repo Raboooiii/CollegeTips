@@ -83,6 +83,7 @@ header {
     margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
+    font-family:cursive;
 }
 
 .header-images {
