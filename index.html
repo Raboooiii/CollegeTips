@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeTips Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="page-background"></div>
+    <header class="header-background">
+        <div class="header-overlay">
+            <div class="header-images">
+                <!-- Image 1 (Left side) -->
+                <div class="header-image-wrapper">
+                    <img src="images/g3.png" alt="Team photo" class="header-image">
+                </div>
+                
+                <!-- Image 2 -->
+                <div class="header-image-wrapper">
+                    <img src="images/g1.png" alt="College photo" class="header-image">
+                </div>
+                
+                <!-- Center Image (no hover) -->
+                <div class="header-image-wrapper center-image">
+                    <img src="images/mainCT (2).png" alt="Main photo" class="header-image">
+                </div>
+                
+                <!-- Image 4 -->
+                <div class="header-image-wrapper">
+                    <img src="images/g4.png" alt="Study photo" class="header-image">
+                </div>
+                
+                <!-- Image 5 (Right side) -->
+                <div class="header-image-wrapper">
+                    <img src="images/g2.png" alt="Campus photo" class="header-image">
+                </div>
+            </div>
+            <h1>CollegeTips <span>Gallery</span></h1>
+            <p>Capturing our journey, one moment at a time</p>
+        </div>
+    </header>
+    <div class="gallery-controls">
+        <div class="filter-buttons">
+            <button class="active" data-filter="all">All Photos</button>
+            <button data-filter="team">Team Vibes 🤝</button>
+            <button data-filter="campaigns">Creative Campaigns 🎨</button>
+            <button data-filter="play">Work Hard, Play Hard 🥳</button>
+            <button data-filter="bts">Behind-The-Scenes 🎥</button>
+            <button data-filter="Ghibili">Ghibili 🤪</button>
+
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search photos...">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <!-- Gallery items will be inserted here by JavaScript -->
+    </div>
+
+    <!-- Fullscreen View Modal -->
+    <div class="modal">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content">
+            <img id="expanded-img">
+            <div class="img-info">
+                <h3 id="img-title"></h3>
+                <p id="img-description"></p>
+                <div class="img-meta">
+                    <span id="img-date"></span>
+                    <span id="img-category"></span>
+                </div>
+            </div>
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
